@@ -11,11 +11,11 @@ from textblob import TextBlob
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 # Class which describes Ai hirring asistent with sentiment
 class HirringAsistent:
-    nltk.download('punkt')
-    nltk.download('stopwords')
-    nltk.download('wordnet')
     # Define list of stop words to remove from text
     stop_words = set(stopwords.words('english'))
     
