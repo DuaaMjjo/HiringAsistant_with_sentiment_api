@@ -15,6 +15,7 @@ from nltk.tokenize import word_tokenize
 class HirringAsistent:
     nltk.download('punkt')
     nltk.download('stopwords')
+    nltk.download('wordnet')
     # Define list of stop words to remove from text
     stop_words = set(stopwords.words('english'))
     
