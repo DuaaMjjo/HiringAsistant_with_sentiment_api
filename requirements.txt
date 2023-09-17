@@ -1,8 +1,5 @@
 fastapi
 uvicorn
 nltk
-nltk.stem 
-nltk.corpus
-nltk.tokenize
 textblob
 re
