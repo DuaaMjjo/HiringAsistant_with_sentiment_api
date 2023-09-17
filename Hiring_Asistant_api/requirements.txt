@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-nltk
-nltk.stem 
-nltk.corpus
-nltk.tokenize
-nltk.download('stopwords')
-textblob
-re
