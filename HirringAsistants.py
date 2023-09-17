@@ -13,6 +13,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 # Class which describes Ai hirring asistent with sentiment
 class HirringAsistent:
+    nltk.download('punkt')
     nltk.download('stopwords')
     # Define list of stop words to remove from text
     stop_words = set(stopwords.words('english'))
