@@ -2,7 +2,9 @@
 # 1. Library imports
 from fastapi import FastAPI
 from HirringAsistants import HirringAsistent
-
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 # 2. Create the app object
 app = FastAPI()
 
