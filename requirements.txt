@@ -2,4 +2,3 @@ fastapi
 uvicorn
 nltk
 textblob
-re
