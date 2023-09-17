@@ -6,13 +6,14 @@ Created on Mon Sep  4 23:54:38 2023
 """
 
 import re
+import nltk
 from textblob import TextBlob
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 # Class which describes Ai hirring asistent with sentiment
 class HirringAsistent:
-    
+    nltk.download('stopwords')
     # Define list of stop words to remove from text
     stop_words = set(stopwords.words('english'))
     
